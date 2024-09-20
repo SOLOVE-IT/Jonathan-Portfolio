@@ -44,7 +44,7 @@
     color: rgb(255, 65, 67)
 }
 
-.home {
-    display: flex;
+#leftBox{
     background-color: rgb(36, 38, 59);
+    color: white;
 }
