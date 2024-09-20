@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.headerlogos {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(36, 38, 59);
+}
+
+#brand-logo img {
+    width: 190px;
+    padding-left: 60px;
+    padding-top: 30px;
+
+}
+
+#headertexts {
+    display: flex;
+    list-style: none;
+    padding-right: 90px;
+    padding-left: 200px;
+    padding-top: 20px;
+    color: white;
+
+}
+
+#headertexts a {
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#headertexts a:hover {
+    color: rgb(255, 65, 67)
+}
