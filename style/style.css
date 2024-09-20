@@ -9,35 +9,42 @@
 .headerlogos {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(36, 38, 59);
+    background-color: rgb(31, 34, 53);
+    position: fixed;
 }
 
 #brand-logo img {
-    width: 190px;
+    width: 180px;
     padding-left: 60px;
-    padding-top: 30px;
+    padding-top: 20px;
 
 }
 
 #headertexts {
     display: flex;
     list-style: none;
-    padding-right: 90px;
-    padding-left: 200px;
+    padding-right: 100px;
+    padding-left: 455px;
     padding-top: 20px;
     color: white;
+    justify-content: space-between;
+
 
 }
 
 #headertexts a {
     color: white;
-    justify-content: space-between;
     display: flex;
     text-decoration: none;
     font-size: 20px;
-    padding: 10px;
+    padding: 0px 15px;
 }
 
 #headertexts a:hover {
     color: rgb(255, 65, 67)
+}
+
+.home {
+    display: flex;
+    background-color: rgb(36, 38, 59);
 }
