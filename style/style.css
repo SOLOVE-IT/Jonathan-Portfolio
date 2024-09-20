@@ -44,7 +44,20 @@
     color: rgb(255, 65, 67)
 }
 
-#leftBox{
+#leftBox {
     background-color: rgb(36, 38, 59);
     color: white;
+    padding-left: 60px;
+    padding-top: 150px;
+
+}
+
+.SocialIcon{
+    display: flex;
+    margin: 10px;
+    padding-top: 20px;
+    color: white;
+    
+
+
 }
