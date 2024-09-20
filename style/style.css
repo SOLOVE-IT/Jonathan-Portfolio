@@ -17,6 +17,8 @@
     width: 180px;
     padding-left: 60px;
     padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 20px;
 
 }
 
@@ -37,25 +39,27 @@
     display: flex;
     text-decoration: none;
     font-size: 20px;
-    padding: 0px 15px;
+    padding: 19px 15px;
 }
 
 #headertexts a:hover {
     color: rgb(255, 65, 67)
 }
 
+/* Home Page */
+
 .home {
     background-color: rgb(36, 38, 59);
     color: white;
     padding-left: 60px;
-    padding-top: 150px;
+    padding-top: 250px;
     display: flex;
 
 }
 
 #innerleftBox .SocialIcon{
-    padding-top: 3px;
-    padding-left: 7px;
+    padding-top: 5px;
+    padding-left: 10px;
     font-weight: 100px;
       
 }
@@ -64,13 +68,13 @@
     margin: 10px;
     padding-top: 20px;
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 25px;
     display: inline-block;
     border: solid rgb(255, 65, 67);
     border-radius: 90%;
-    border-width: 3px ;
-    width: 50px;
-    height: 50px;
+    border-width: 2.5px ;
+    width: 49px;
+    height: 49px;
     justify-content: center;
     align-items: center;
 }
@@ -79,4 +83,21 @@
 
 #rightBox img{
     padding-left: 50px;
+    margin-top: 50px;
+}
+
+.textcontent{
+    padding-left: 1.5%;
+    padding-top: 20px;
+    letter-spacing: 5px;
+    font-size: 400%;
+    font-weight: 889px;
+}
+
+.texts{
+    font-size: 25px;
+    line-height: 39px;
+    padding-top: 30px;
+    padding-left: 4px;
+
 }
