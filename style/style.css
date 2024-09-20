@@ -84,6 +84,7 @@
 #rightBox img{
     padding-left: 50px;
     margin-top: 50px;
+    font-size: small;
 }
 
 .textcontent{
@@ -96,6 +97,7 @@
 
 .texts{
     font-size: 25px;
+    font-weight: 300%;
     line-height: 39px;
     padding-top: 30px;
     padding-left: 4px;
