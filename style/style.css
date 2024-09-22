@@ -79,6 +79,10 @@
     align-items: center;
 }
 
+.SocialIcon:hover{
+    background-color: rgb(255, 65, 67);   
+}
+
 
 
 #rightBox img {
