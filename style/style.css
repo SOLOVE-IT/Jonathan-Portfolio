@@ -57,11 +57,11 @@
 
 }
 
-#innerleftBox .SocialIcon{
+#innerleftBox .SocialIcon {
     padding-top: 5px;
     padding-left: 10px;
     font-weight: 100px;
-      
+
 }
 
 .SocialIcon {
@@ -72,7 +72,7 @@
     display: inline-block;
     border: solid rgb(255, 65, 67);
     border-radius: 90%;
-    border-width: 2.5px ;
+    border-width: 2.5px;
     width: 49px;
     height: 49px;
     justify-content: center;
@@ -81,13 +81,12 @@
 
 
 
-#rightBox img{
+#rightBox img {
     padding-left: 50px;
     margin-top: 50px;
-    font-size: small;
 }
 
-.textcontent{
+.textcontent {
     padding-left: 1.5%;
     padding-top: 20px;
     letter-spacing: 5px;
@@ -95,11 +94,38 @@
     font-weight: 889px;
 }
 
-.texts{
+.texts {
     font-size: 25px;
     font-weight: 300%;
     line-height: 39px;
     padding-top: 30px;
     padding-left: 4px;
 
+}
+
+/* Home Button */
+.button {
+    letter-spacing: 20px;
+    padding-top: 50px;
+    font-size: 10px;
+}
+
+.portfoliobutton {
+    border: solid rgb(255, 65, 67);
+    border-radius: 40px;
+    background-color: rgb(36, 38, 59);
+    width: 170px;
+    /* height: 90%; */
+    /* font-size: 20px; */
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-size-adjust: 10px;
+    align-items: center;
+
+}
+
+.portfoliobutton:hover{
+    background-color: rgb(255, 65, 67);
 }
