@@ -144,5 +144,21 @@
 .service{
     background-color: rgb(31,34,53);
     text-align: center;
+
+}
+
+.topBox{
+    padding-top: 100px;
+}
+
+.service1{
+    color: rgb(255, 65, 67);
+    font-size: 15px;
+    font-weight: 100px;
+    padding-bottom: 25px;
+}
+
+.myservices{
+    
 }
 
