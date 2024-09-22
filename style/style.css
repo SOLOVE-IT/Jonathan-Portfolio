@@ -159,6 +159,28 @@
 }
 
 .myservices{
-    
+    color: white;
+    font-size: 60px;
+    padding-bottom: 15px;
 }
 
+.myoffer{
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0px;
+    line-height: 39px;
+}
+
+/* .myoffer hr{ */
+    /* color: rgb(255, 65, 67); */
+    /* background-color: rgb(255, 65, 67); */
+    /* border: solid rgb(255, 65, 67); */
+    /* border-color: rgb(255, 65, 67); */
+    /* border-inline-color: rgb(255, 65, 67); */
+    
+/* } */
+
+#bottomBox{
+    color: white;
+}
