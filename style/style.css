@@ -119,12 +119,11 @@
     border-radius: 40px;
     background-color: rgb(36, 38, 59);
     width: 170px;
-    /* height: 90%; */
-    /* font-size: 20px; */
+    height: 50px;
     justify-content: center;
     color: white;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: 10px;
     text-size-adjust: 10px;
     align-items: center;
 
@@ -133,3 +132,10 @@
 .portfoliobutton:hover{
     background-color: rgb(255, 65, 67);
 }
+
+.ctabutton{
+    font-size: 20px;
+    width: 90px;
+    height: 50px;
+}
+
