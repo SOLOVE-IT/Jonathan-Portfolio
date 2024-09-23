@@ -143,27 +143,30 @@
 
 
 /* Service Section */
-.service {
+#service {
     background-color: rgb(31, 34, 53);
-    text-align: center;
-
 }
 
-.topBox {
-    padding-top: 100px;
+.colcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .service1 {
     color: rgb(255, 65, 67);
     font-size: 15px;
-    font-weight: 100px;
-    padding-bottom: 25px;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    align-items: center;
+    justify-content: center;
 }
 
-.myservices {
+.Myservices{
     color: white;
-    font-size: 60px;
-    padding-bottom: 15px;
+    
 }
 
 .myoffer {
@@ -212,7 +215,7 @@
 /* About me */
 
 .about {
-    background-color: rgb(31, 34, 53);
+    background-color: rgb(35,38,58);
     text-align: center;
     color: white;
     padding-top: 150px;
@@ -234,7 +237,7 @@
     color: white;
     padding-bottom: 20px;
     text-align: center;
-    display:flex;
+    display: flex;
 
 }
 
@@ -245,13 +248,13 @@
 
 }
 
-#aboutJonathanDoe{
+#aboutJonathanDoe {
     padding-left: 500px;
     padding-bottom: 100px;
-    
+
 }
 
-#JonathansDoepi{
+#JonathansDoepi {
     display: flex;
     flex: flex wrap;
     justify-items: right;
