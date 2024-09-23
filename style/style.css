@@ -215,7 +215,18 @@
 }
 
 .service-card h2{
-    font-weight: ;
+    font-weight: 20px;
+    font-size: 20px;
+    line-height: 4;
+}
+
+.service-card i{
+    color: rgb(255, 65, 67);
+    font-size: 35px;
+}
+
+.service-card p{
+    
 }
 
 .service-card:hover {
