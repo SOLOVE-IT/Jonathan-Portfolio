@@ -139,6 +139,8 @@
     height: 50px;
 }
 
+/* End of Home Button */
+
 
 /* Service Section */
 .service {
@@ -172,15 +174,22 @@
     line-height: 39px;
 }
 
-/* .myoffer hr{ */
-    width: 100%;
-    border-top: 1px solid rgb(255, 65, 67);
+.divider {
     border-color: rgb(255, 65, 67);
-    border-inline-color: rgb(255, 65, 67);
-    border-width: 2px;
-
+    width: 100px;
+    margin-bottom: 20px;
+    height: 2px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 650px;
+    padding: 2px;
+    background-color: rgb(255, 65, 67);
+    border-radius: 5px;
 
 }
+
+
+
 
 .bottomBox {
     color: white;
@@ -190,23 +199,61 @@
     flex-wrap: flex;
 }
 
-.bottomBox1{
-    border: solid rgb(255, 65, 67) ;
-    /* flex-wrap: flex; */
+.service-id {
+    border: solid rgb(255, 65, 67);
+    flex-wrap: flex;
     flex-wrap: wrap;
+    color: white;
+}
+
+/* End of Sevice Box */
+
+
+/* About me */
+
+.about {
+    background-color: rgb(31, 34, 53);
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 40px;
+
+
+}
+
+#Joejoe {
+    flex-wrap: wrap;
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+    display:flex;
+
 }
 
 
-/* About */
-#Joejoe{
-    padding-left: 100px;
-    padding-top: 100px;
-    flex-wrap: wrap;
-}
-
-
- /* #Jonathanhimself2{ */
-    padding-right: 650px;
+#Jonathanhimself2 {
+    padding-right: 900px;
     padding-top: 40px;
 
- }
+}
+
+#aboutJonathanDoe{
+    padding-left: 500px;
+    padding-bottom: 100px;
+    
+}
+
+#JonathansDoepi{
+    display: flex;
+    flex: flex wrap;
+    justify-items: right;
+
+}
