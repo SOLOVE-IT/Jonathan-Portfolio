@@ -162,11 +162,14 @@
     letter-spacing: 0.9px;
     align-items: center;
     justify-content: center;
+    padding-top: 90px;
 }
 
-.Myservices{
+.Myservices {
     color: white;
-    
+    font-size: 50px;
+    font-weight: 100px;
+    padding-top: 20px;
 }
 
 .myoffer {
@@ -202,11 +205,21 @@
     flex-wrap: flex;
 }
 
-.service-id {
-    border: solid rgb(255, 65, 67);
-    flex-wrap: flex;
-    flex-wrap: wrap;
-    color: white;
+.service-card {
+    border: solid rgb(36, 38, 59);
+    width: 300px;
+    border-radius: 24px;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+}
+
+.service-card h2{
+    font-weight: ;
+}
+
+.service-card:hover {
+    background-color: rgb(255, 65, 67);
 }
 
 /* End of Sevice Box */
@@ -215,7 +228,7 @@
 /* About me */
 
 .about {
-    background-color: rgb(35,38,58);
+    background-color: rgb(35, 38, 58);
     text-align: center;
     color: white;
     padding-top: 150px;
