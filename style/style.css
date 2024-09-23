@@ -79,8 +79,8 @@
     align-items: center;
 }
 
-.SocialIcon:hover{
-    background-color: rgb(255, 65, 67);   
+.SocialIcon:hover {
+    background-color: rgb(255, 65, 67);
 }
 
 
@@ -129,11 +129,11 @@
 
 }
 
-.portfoliobutton:hover{
+.portfoliobutton:hover {
     background-color: rgb(255, 65, 67);
 }
 
-.ctabutton{
+.ctabutton {
     font-size: 20px;
     width: 90px;
     height: 50px;
@@ -141,30 +141,30 @@
 
 
 /* Service Section */
-.service{
-    background-color: rgb(31,34,53);
+.service {
+    background-color: rgb(31, 34, 53);
     text-align: center;
 
 }
 
-.topBox{
+.topBox {
     padding-top: 100px;
 }
 
-.service1{
+.service1 {
     color: rgb(255, 65, 67);
     font-size: 15px;
     font-weight: 100px;
     padding-bottom: 25px;
 }
 
-.myservices{
+.myservices {
     color: white;
     font-size: 60px;
     padding-bottom: 15px;
 }
 
-.myoffer{
+.myoffer {
     color: white;
     flex-wrap: wrap;
     justify-content: center;
@@ -173,14 +173,40 @@
 }
 
 /* .myoffer hr{ */
-    /* color: rgb(255, 65, 67); */
-    /* background-color: rgb(255, 65, 67); */
-    /* border: solid rgb(255, 65, 67); */
-    /* border-color: rgb(255, 65, 67); */
-    /* border-inline-color: rgb(255, 65, 67); */
-    
-/* } */
+    width: 100%;
+    border-top: 1px solid rgb(255, 65, 67);
+    border-color: rgb(255, 65, 67);
+    border-inline-color: rgb(255, 65, 67);
+    border-width: 2px;
 
-#bottomBox{
-    color: white;
+
 }
+
+.bottomBox {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    flex-wrap: flex;
+}
+
+.bottomBox1{
+    border: solid rgb(255, 65, 67) ;
+    /* flex-wrap: flex; */
+    flex-wrap: wrap;
+}
+
+
+/* About */
+#Joejoe{
+    padding-left: 100px;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+
+ /* #Jonathanhimself2{ */
+    padding-right: 650px;
+    padding-top: 40px;
+
+ }
