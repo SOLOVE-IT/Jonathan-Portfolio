@@ -1,0 +1,286 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.headerlogos {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(31, 34, 53);
+    position: fixed;
+}
+
+#brand-logo img {
+    width: 180px;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 20px;
+
+}
+
+#headertexts {
+    display: flex;
+    list-style: none;
+    padding-right: 100px;
+    padding-left: 455px;
+    padding-top: 20px;
+    color: white;
+    justify-content: space-between;
+
+
+}
+
+#headertexts a {
+    color: white;
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 19px 15px;
+}
+
+#headertexts a:hover {
+    color: rgb(255, 65, 67)
+}
+
+/* Home Page */
+
+.home {
+    background-color: rgb(36, 38, 59);
+    color: white;
+    padding-left: 60px;
+    padding-top: 250px;
+    display: flex;
+
+}
+
+#innerleftBox .SocialIcon {
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: 100px;
+
+}
+
+.SocialIcon {
+    margin: 10px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    display: inline-block;
+    border: solid rgb(255, 65, 67);
+    border-radius: 90%;
+    border-width: 2.5px;
+    width: 49px;
+    height: 49px;
+    justify-content: center;
+    align-items: center;
+}
+
+.SocialIcon:hover {
+    background-color: rgb(255, 65, 67);
+}
+
+
+
+#rightBox img {
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+.textcontent {
+    padding-left: 1.5%;
+    padding-top: 20px;
+    letter-spacing: 5px;
+    font-size: 400%;
+    font-weight: 889px;
+}
+
+.texts {
+    font-size: 25px;
+    font-weight: 300%;
+    line-height: 39px;
+    padding-top: 30px;
+    padding-left: 4px;
+
+}
+
+/* Home Button */
+.button {
+    letter-spacing: 20px;
+    padding-top: 50px;
+    font-size: 10px;
+}
+
+.portfoliobutton {
+    border: solid rgb(255, 65, 67);
+    border-radius: 40px;
+    background-color: rgb(36, 38, 59);
+    width: 170px;
+    height: 50px;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 10px;
+    text-size-adjust: 10px;
+    align-items: center;
+
+}
+
+.portfoliobutton:hover {
+    background-color: rgb(255, 65, 67);
+}
+
+.ctabutton {
+    font-size: 20px;
+    width: 90px;
+    height: 50px;
+}
+
+/* End of Home Button */
+
+
+/* Service Section */
+#service {
+    background-color: rgb(31, 34, 53);
+}
+
+.colcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.service1 {
+    color: rgb(255, 65, 67);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.Myservices {
+    color: white;
+    font-size: 50px;
+    font-weight: 100px;
+    padding-top: 20px;
+}
+
+.myoffer {
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0px;
+    line-height: 39px;
+}
+
+.divider {
+    border-color: rgb(255, 65, 67);
+    width: 100px;
+    margin-bottom: 20px;
+    height: 2px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 650px;
+    padding: 2px;
+    background-color: rgb(255, 65, 67);
+    border-radius: 5px;
+
+}
+
+
+
+
+.bottomBox {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    flex-wrap: flex;
+}
+
+.service-card {
+    border: solid rgb(36, 38, 59);
+    width: 300px;
+    border-radius: 24px;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+}
+
+.service-card h2{
+    font-weight: 20px;
+    font-size: 20px;
+    line-height: 4;
+}
+
+.service-card i{
+    color: rgb(255, 65, 67);
+    font-size: 35px;
+}
+
+.service-card p{
+    
+}
+
+.service-card:hover {
+    background-color: rgb(255, 65, 67);
+}
+
+/* End of Sevice Box */
+
+
+/* About me */
+
+.about {
+    background-color: rgb(35, 38, 58);
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 40px;
+
+
+}
+
+#Joejoe {
+    flex-wrap: wrap;
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+    display: flex;
+
+}
+
+
+#Jonathanhimself2 {
+    padding-right: 900px;
+    padding-top: 40px;
+
+}
+
+#aboutJonathanDoe {
+    padding-left: 500px;
+    padding-bottom: 100px;
+
+}
+
+#JonathansDoepi {
+    display: flex;
+    flex: flex wrap;
+    justify-items: right;
+
+}
