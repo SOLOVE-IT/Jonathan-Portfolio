@@ -7,20 +7,26 @@
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/475ef8608a.js" crossorigin="anonymous"></script>
     <title>Jonathan-Porfolio</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- header part -->
-    <header>
-        <div>
-            <img src="./images/Jonathan's logo.png" alt="brand logo" id="brand-logo">
+    <header class="headerlogos">
+        <div id="brand-logo">
+            <img src="./images/Jonathan's logo.png" alt="brand-logo">
         </div>
 
         <nav>
-            <ul>
+            <ul id="headertexts">
                 <li><a href="#home">Home</a></li>
+                <li><a href="#service">Services</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#blog">Blog</a></li>
@@ -32,10 +38,10 @@
 
     <!-- main part -->
     <main>
-        <sec id="home">
+        <section class="home" id="home">
             <div id="leftBox">
                 <!-- social icons -->
-                <div>
+                <div id="innerleftBox">
                     <div class="SocialIcon">
                         <i class="fa-brands fa-facebook"></i>
                     </div>
@@ -51,19 +57,19 @@
                     <div class="SocialIcon">
                         <i class="fa-brands fa-github"></i>
                     </div>
-                    <div>
+                    <div class="SocialIcon">
                         <i class="fa-brands fa-linkedin"></i>
                     </div>
                 </div>
 
                 <!-- text content -->
-                <h1>I am Ifeoluwa</h1>
-                <p>i'm Ifeoluwa, professional web developer with long time experience in this field​</p>
+                <h1 class="textcontent">I am Ifeoluwa</h1>
+                <p class="texts">I'm Ifeoluwa, professional web developer with long time experience in this field​</p>
 
                 <!-- cta button -->
-                <div>
-                    <button>My Portfolio</button>
-                    <button><i class="fa-solid fa-play"></i></button>
+                <div class="button">
+                    <button class="portfoliobutton">My Portfolio</button width>
+                    <button class="ctabutton"><i class="fa-solid fa-play"></i></button>
                 </div>
 
             </div>
@@ -72,104 +78,79 @@
                 <img src="./images/Jonathan himself.png" alt="Jonathan's picture">
 
             </div>
-        </sec>
+        </section>
+        <!-- Service-Part -->
+        <section id="service">
+            <div class="colcontent">
+                <p class="service1">SERVICES</p>
+                <h3 class="Myservices">My Services</h3>
+                <p class="myoffer">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum standard dummy text.
 
-        <sec id="service">
-            <div id="topBox">
-                <p>My Services</p>
-                <h2>Services</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deserunt harum illo delectus aperiam
-                    officiis? Deserunt facilis repellendus sapiente velit cum repudiandae illum consequatur! Repellat
-                    illum harum sed nostrum voluptatem?</p>
+                </p>
             </div>
-            <hr>
+            <hr class="divider">
 
-            <div id="bottomBox">
-                <div class="servive-card"><i class="fa-brands fa-github"></i></div>
-                <h2>Web Development</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa inventore asperiores earum
-                    architecto. Ratione magnam non at voluptate ipsa! Culpa delectus cum velit incidunt, reprehenderit
-                    aspernatur ratione iure quod.</p>
-            </div>
+            <div class="bottomBox">
 
-            <div>
-                <div class="servive-card"><i class="fa-brands fa-webflow"></i></div>
-                <h2>Web Design</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa inventore asperiores earum
-                    architecto. Ratione magnam non at voluptate ipsa! Culpa delectus cum velit incidunt, reprehenderit
-                    aspernatur ratione iure quod.</p>
-            </div>
-
-            <div>
-                <div class="servive-card"><i class="fa-solid fa-video"></i></div>
-                <h2>Video Editing</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa inventore asperiores earum
-                    architecto. Ratione magnam non at voluptate ipsa! Culpa delectus cum velit incidunt, reprehenderit
-                    aspernatur ratione iure quod.</p>
-            </div>
-
-            <div>
-                <div class="servive-card"><i class="fa-solid fa-image"></i></div>
-                <h2>Photography</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa inventore asperiores earum
-                    architecto. Ratione magnam non at voluptate ipsa! Culpa delectus cum velit incidunt, reprehenderit
-                    aspernatur ratione iure quod.</p>
-            </div>
-            <div class="servive-card"><i class="fa-brands fa-apple"></i></div>
-            <h2>App Development</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa inventore asperiores earum
-                architecto. Ratione magnam non at voluptate ipsa! Culpa delectus cum velit incidunt, reprehenderit
-                aspernatur ratione iure quod.</p>
-
-            </div>
-
-            <div>
-                <div class="servive-card"><i class="fa-solid fa-check"></i></div>
-                <h2>SEO Expert</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa inventore asperiores earum
-                    architecto. Ratione magnam non at voluptate ipsa! Culpa delectus cum velit incidunt, reprehenderit
-                    aspernatur ratione iure quod.</p>
-
-
-            </div>
-
-
-
-            </div>
-        </sec>
-
-        <sec id="about">
-            <div id="about">
-                <h2>About Me</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy
-                    text.</p>
-                <hr>
-                <div id="Jonathan himself2"><img src="./images/Jonathan himself 2.png" alt=""></div>
-                <div id="about Jonathan Doe">
-
-
-                    <h2>Hi There</h2>
-                    <p>In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at sapien faucibus fermentum ut
-                        vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem
-                        turpis
-
-                        nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis porta sem turpis quis
-                        leo. Nulla in feugiat elit</p>
-
-                    <div id="Jonathan's Doe pi">
-                        <p>Name: Jonathan Doe</p>
-                        <p>Phone:+1 023 454 345</p>
-                        <p>Email:example@domain.com</p>
-                        <p>LinkedIn:
-                            Jonathan_123</p>
-                    </div>
+                <div class="service-card">
+                    <i class="fa-brands fa-github"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa inventore asperiores earum
+                        architecto. Ratione magnam non</p>
                 </div>
+
+                <div class="service-card">
+                    <i class="fa-brands fa-webflow"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa inventore asperiores earum
+                        architecto.</p>
+                </div>
+
+                <div class="service-card">
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video Editing</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa inventore asperiores earum
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <i class="fa-solid fa-image"></i>
+                    <h2>Photography</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa inventore asperiores earum
+                        architecto.</p>
+                </div>
+
+                <div class="service-card">
+                    <i class="fa-brands fa-apple"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa inventore asperiores earum
+                        architecto.</p>
+
+                </div>
+
+                <div class="service-card">
+                    <i class="fa-solid fa-check"></i>
+                    <h2>SEO Expert</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa inventore asperiores earum
+                        architecto.</p>
+                </div>
+
             </div>
 
 
-        </sec>
 
-        <sec id="skills">
+        </section>
+
+        <!-- About Part  -->
+         <section id="about">
+            
+
+         </section>
+
+
+        <!-- Skills Part -->
+        <section id="skills">
             <div id="skills a">
                 <div>
                     <p>i'm expert on</p>
@@ -190,9 +171,9 @@
                     <hr>
                 </div>
             </div>
-        </sec>
+        </section>
 
-        <sec id="portfolio">
+        <section id="portfolio">
             <div id="portfolio 1">
                 <div id="portfolio a">
                     <h2>Portfolio Showcase</h2>
@@ -200,7 +181,7 @@
                         expertise.
 
                     </p>
-                    <hr>
+                    <hr class="divider">
                 </div>
                 <div id="portfolio b">
                     <button>All Works</button>
@@ -362,9 +343,9 @@
 
 
             </div>
-        </sec>
+        </section>
 
-        <sec id="blog">
+        <section id="blog">
             <div id="blog 1">
                 <p>Latest Post
                 </p>
@@ -406,7 +387,7 @@
 
                 </div>
             </div>
-        </sec>
+        </section>
 
         <section id="contact">
             <div id="contact 1">
@@ -449,7 +430,7 @@
                     <button>Send message</button>
                 </div>
             </div>
-            </sec>
+        </section>
     </main>
 
     <!-- footer part -->
